@@ -1,0 +1,38 @@
+{
+  "name": "@vuepress-vivek/theme-cli",
+  "version": "1.0.0",
+  "description": "A cli for vuepress-theme-vivek",
+  "scripts": {
+    "tsc": "tsc --outDir ./bin/"
+  },
+  "bin": {
+    "vivek": "./bin/index.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "keywords": [
+    "vuepress",
+    "vue",
+    "theme",
+    "vivek",
+    "cli"
+  ],
+  "author": "cavalheiro",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Vivek",
+      "email": "eddievandeer@163.com"
+    }
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "log-symbols": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "typescript": "^4.4.4"
+  }
+}
