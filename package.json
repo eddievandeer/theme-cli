@@ -1,12 +1,13 @@
 {
   "name": "@vuepress-vivek/theme-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cli for vuepress-theme-vivek",
   "scripts": {
+    "dev": "tsc -w",
     "tsc": "tsc --outDir ./bin/"
   },
   "bin": {
-    "vivek": "./bin/index.js"
+    "vivek": "bin/index.js"
   },
   "files": [
     "bin/"
@@ -21,18 +22,27 @@
   "author": "cavalheiro",
   "license": "MIT",
   "maintainers": [
-    {
-      "name": "Vivek",
-      "email": "eddievandeer@163.com"
-    }
+    "Vivek <eddievandeer@163.com>"
   ],
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^8.3.0",
-    "log-symbols": "^5.0.0"
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.0",
+    "log-symbols": "^4.0.0",
+    "ora": "^3.4.0"
   },
   "devDependencies": {
     "@types/node": "^16.11.6",
     "typescript": "^4.4.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddievandeer/theme-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eddievandeer/theme-cli/issues"
+  },
+  "homepage": "https://github.com/eddievandeer/theme-cli#readme",
+  "main": "index.js"
 }
