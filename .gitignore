@@ -1,5 +1,7 @@
 node_modules
 /bin
+/docs
+/template
 
 # Editor directories and files
 .idea
