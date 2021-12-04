@@ -61,7 +61,7 @@ program
                         `categories: ${categories.length > 1 ? toYmlArr(categories) : category}\n` +
                         `tags: ${tags.length > 1 ? toYmlArr(tags) : tag}\n` +
                         '---\n' +
-                        `${abstract ? '::: slot abstract\n在此填写摘要内容\n:::' : ''}`
+                        `${abstract ? '::: slot abstract\n\n在此填写摘要内容\n\n:::' : ''}`
         
                 newMd(folder, fileName, buffer)
             })
